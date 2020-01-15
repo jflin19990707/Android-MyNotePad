@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@color/md_white_color_code"
+    android:orientation="vertical"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:paddingTop="2dp"
+            android:orientation="vertical"
+            android:background="@color/md_orange_300_color_code"
+            >
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/draw_content"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:paddingRight="20dp"
+                fresco:actualImageScaleType="centerCrop"
+                android:background="@color/md_grey_100_color_code"
+                />
+
+            <TextView
+                android:id="@+id/item_draw_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="标题"
+                />
+            <TextView
+                android:id="@+id/item_draw_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="2020-1-1"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

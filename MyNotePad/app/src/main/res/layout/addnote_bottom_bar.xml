@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_gravity="end"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/iv_picture"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/icon_picture"
+        android:layout_weight="1"/>
+    <ImageView
+        android:id="@+id/iv_checkBox"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/icon_checkbox"
+        android:layout_weight="1"/>
+    <ImageView
+        android:id="@+id/iv_skin"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/icon_skin"
+        android:layout_weight="1"/>
+    <ImageView
+        android:id="@+id/iv_textStyle"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/icon_textstyle"
+        android:layout_weight="1"/>
+    <ImageView
+        android:id="@+id/iv_sound"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/icon_sound"
+        android:layout_weight="1"/>
+</LinearLayout>
